@@ -2,7 +2,8 @@
 lock '3.6.1'
 
 set :application, 'todoapp'
-set :deploy_user, 'grunt'
+#set :deploy_user, 'grunt'
+set :deploy_user, 'jim'
 set :repo_url, 'git@github.com:jameshibbard/todoapp.git'
 
 #set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')

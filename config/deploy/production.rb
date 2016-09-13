@@ -62,5 +62,8 @@
 
 #role :web, %w{grunt@192.168.178.57}
 
-server '192.168.178.57', user: fetch(:deploy_user), roles: %w{app db web}
+#For VBox
+#server '192.168.178.57', user: fetch(:deploy_user), roles: %w{app db web}
+
+server '134.147.230.235', user: fetch(:deploy_user), roles: %w{app db web}
 set :rails_env, 'production'
