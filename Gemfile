@@ -32,6 +32,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development do
   gem 'capistrano', '~> 3.5'
   gem 'capistrano-rails', '~> 1.1.6'
+  gem 'capistrano-rbenv', '~> 2.0', require: false
+  gem 'capistrano-passenger', '~> 0.2.0'
 end
 
 group :development, :test do
